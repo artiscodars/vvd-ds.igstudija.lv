@@ -1,0 +1,219 @@
+// main: style.scss
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.5;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.5;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.5;
+  }
+}
+@-o-keyframes fadeIn { 
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.5;
+  }
+}
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.5;
+  }
+}
+// fade toUTCString
+@keyframes fadeout {
+  0% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.edit_window {
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  visibility: hidden;
+  z-index: 99999;
+  transition: all 0.4s ease 0s;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .edit_form {
+    width: 80%;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    right: -100%;
+    transition: all 0.4s ease 0s;
+    transition-delay: 0.5s;
+    @media(max-width: 768px) {
+      width: 100%;
+    }
+
+    .title {
+      padding: 20px;
+      border-bottom: 1px solid #eaeaea;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+
+      h1 {
+      
+        font-size: 25px;
+        font-weight: 300;
+        color: #000;
+        margin: 0;
+      }
+    }
+
+    .close {
+      display: block;
+      position: fixed;
+      right: -125px;
+      top: 15px;
+      width: 40px;
+      height: 40px;
+      transition: all 0.4s ease 0s;
+      background: #fff;
+
+      &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 2px;
+        height: 30px;
+        background: #000;
+        transform: rotate(45deg);
+        top: 5px;
+        right: 20px;
+        transition: all 0.4s ease 0s;
+        transition-delay: 0.5s;
+      }
+
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 2px;
+        height: 30px;
+        background: #000;
+        transform: rotate(-45deg);
+        top: 5px;
+        right: 20px;
+        transition: all 0.4s ease 0s;
+        transition-delay: 0.5s;
+      }
+    }
+  }
+
+  .form-content {
+    position: absolute;
+    top: 71px;
+    bottom: 79px;
+    left: 0;
+    right: 0;
+
+    .formholder {
+      overflow: auto;
+      height: 100%;
+      padding: 20px;
+    }
+  }
+
+  .form-footer {
+    padding: 20px;
+    border-top: 1px solid #eaeaea;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+.show-edit {
+  overflow: hidden;
+
+  .edit_window {
+    visibility: visible;
+    transition: all 0.4s ease 0s;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background: #000;
+      opacity: 0.5;
+      animation: fadeIn 1s;
+      -webkit-animation: fadeIn 1s;
+      -moz-animation: fadeIn 1s;
+      -o-animation: fadeIn 1s;
+      -ms-animation: fadeIn 1s;
+    }
+
+    .edit_form {
+      right: 0;
+      height: 100%;
+      background: #fff;
+      transition: all 0.4s ease 0s;
+      transition-delay: 0.5s;
+
+      .close {
+        transition: all 0.4s ease 0s;
+        transition-delay: 0.5s;
+        right: 25px;
+      }
+    }
+  }
+}
+
+.modal-header {
+  .btn-close {
+    border-radius: 50%;
+
+  }
+}

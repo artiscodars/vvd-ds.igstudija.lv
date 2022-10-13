@@ -1,0 +1,370 @@
+{
+    "system": "VALSTS VIDES DIENESTA INFORMĀCIJAS SISTĒMA TULPE",
+    "payment": "false",
+    "breadcrumb": "true",
+    "title":"C kategorijas piesārņojošo darbību reģistrācija/atcelšana <span class='badge bg-secondary'>2626</span>",
+    "tools": [
+        {
+            "type": "button", 
+            "col": "col-auto",
+            "field_elements": 
+                    {
+                        "name": "Saglabāt",
+                        "class": "btn btn-primary"
+                    }
+        }
+    ],
+
+    "form": [
+        {
+            "type": "text", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "AA#ID",
+                        "value": "2626",
+                        "disabled": "disabled"
+                    }
+        },
+        {
+            "type": "text", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "Izveidots",
+                        "disabled": "disabled",
+                        "value": "12.12.2022"
+                    }
+        },
+
+        {
+            "type": "text", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "Statuss", 
+                        "value": "Melnraksts",
+                        "disabled": "disabled"
+                    }
+        },
+         {
+            "type": "datalist-group", 
+            "col": "col-12",
+            "field_elements": 
+                    {
+                        "label": "Persona par kuru iesniedz",
+                        "placeholder": "Izvēlies",
+                        "button": "Pievienot jaunu"
+                    },
+            "options": 
+                    {
+                        "m": "AS BALTA",
+                        "a": "Baltijas apdrošināšanas nams"
+                    }
+        },
+
+        {
+            "type": "text", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "Iesnieguma iesniegšanas mērķis", 
+                        "value": "Jaunas darbības reģistrācija",
+                        "disabled": "disabled"
+                    }
+        },
+
+        {
+            "type": "subtitle", 
+            "col": "col-12",
+            "field_elements": 
+                    {
+                        "heading": "h3",
+                        "title": "Iekārtas informācija"
+                    }
+        },
+
+        {
+            "type": "text", 
+            "col": "col-md-6",
+            "field_elements": 
+                    {
+                        "label": "Darbības veikšanas vietas adrese"
+                    }
+        },
+        {
+            "type": "text", 
+            "col": "col-md-2",
+            "field_elements": 
+                    {
+                        "label": "Platums (LKS92 X koordināta)"
+                    }
+        },
+        {
+            "type": "text", 
+            "col": "col-md-2",
+            "field_elements": 
+                    {
+                        "label": "Garums (LKS92 Y koordināta)"
+                    }
+        },
+
+        {
+            "type": "file", 
+            "col": "col-md-2",
+            "field_elements": 
+                    {
+                        "label": "Attēls"
+                    }
+        },
+
+        {
+            "type": "subtitle", 
+            "col": "col-12",
+            "field_elements": 
+                    {
+                        "heading": "h3",
+                        "title": "Iekārtas kadastra informācija"
+                    }
+        },
+
+        {
+            "type": "select", 
+            "col": "col-md-2",
+            "field_elements": 
+                    {
+                        "label": "Kadastra objekts",
+                        "placeholder": "Izvēlies"
+                    },
+
+            "options": 
+                    {
+                        "m": "Zemes vienība",
+                        "a": "Būve",
+                        "c": "Telpu grupa"
+                    }
+        },
+        {
+            "type": "text", 
+            "col": "col-md-2",
+            "field_elements": 
+                    {
+                        "label": "Kadastra apzīmējums"
+                    }
+        },
+
+        {
+            "type": "button", 
+            "col": "col-2 pt-3",
+            "field_elements": 
+                    {
+                        "class": "btn btn-primary",
+                        "value": "mm",
+                        "name": "Pievienot papildus"
+                    }
+        },
+
+        {
+            "type": "subtitle", 
+            "col": "col-12",
+            "field_elements": 
+                    {
+                        "heading": "h3",
+                        "title": "Informācija par iekārtas darbības uzsākšanu vai turpināšanu, kā arī par iekārtas darbības laiku, ja tai ir pagaidu raksturs "
+                    }
+        },
+
+        {
+            "type": "radio", 
+            "col": "col-3",
+            "field_elements": 
+                    {
+                        "label": "Esošā darbība",
+                        "name": "darbiba"
+                    }
+        },
+        {
+            "type": "radio", 
+            "col": "col-3",
+            "field_elements": 
+                    {
+                        "label": "Darbību plānots uzsākt / vēl netiek veikta ",
+                        "name": "darbiba"
+                    }
+        },
+        {
+            "type": "radio", 
+            "col": "col-3",
+            "field_elements": 
+                    {
+                        "label": "Darbība ar pagaidu raksturu ",
+                        "name": "darbiba"
+                    }
+        },
+        {
+            "type": "subtitle", 
+            "col": "col-12",
+            "field_elements": 
+                    {
+                        "heading": "h3",
+                        "title": "Norādiet darbības teritorijā esošos stacionāros objektus un/vai piesārņojošo darbību veidus!"
+                    }
+        },
+
+        {
+            "type": "checkbox", 
+            "col": "col-3",
+            "field_elements": 
+                    {
+                        "label": "Sadedzināšanas iekārtas"
+                    }
+        },
+        {
+            "type": "checkbox", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "Degvielas uzpildes stacijas",
+                        "checked": "checked"
+                    }
+        },
+        {
+            "type": "checkbox", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "Dzīvnieku novietnes"
+                    }
+        },
+        {
+            "type": "checkbox", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "Transportlīdzekļu remontdarbnīcas un automazgātuves"
+                    }
+        },
+        {
+            "type": "checkbox", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "Ķīmisko vielu uzglabāšana"
+                    }
+        },
+        {
+            "type": "checkbox", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "Kokapstrāde"
+                    }
+        },
+        {
+            "type": "checkbox", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "Metālapstrāde"
+                    }
+        },
+        {
+            "type": "checkbox", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "Pārtikas rūpniecība"
+                    }
+        },
+        {
+            "type": "checkbox", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "Citi"
+                    }
+        },
+        {
+            "type": "subtitle", 
+            "col": "col-12",
+            "field_elements": 
+                    {
+                        "heading": "h3",
+                        "title": "Vai objektā tiek veikta ūdens ieguve vai piegāde?"
+                    }
+        },
+        {
+            "type": "radio", 
+            "col": "col-1",
+            "field_elements": 
+                    {
+                        "label": "Jā",
+                        "name": "darbiba"
+                    }
+        },
+        {
+            "type": "radio", 
+            "col": "col-1",
+            "field_elements": 
+                    {
+                        "label": "Nē",
+                        "name": "darbiba"
+                    }
+        },
+        {
+            "type": "subtitle", 
+            "col": "col-12",
+            "field_elements": 
+                    {
+                        "heading": "h3",
+                        "title": "Vai objektā vienlaicīgi atrodas vairāk nekā 20 tonnu iepakoto ķīmisko vielu? "
+                    }
+        },
+        {
+            "type": "radio", 
+            "col": "col-1",
+            "field_elements": 
+                    {
+                        "label": "Jā",
+                        "name": "darbiba"
+                    }
+        },
+        {
+            "type": "radio", 
+            "col": "col-1",
+            "field_elements": 
+                    {
+                        "label": "Nē",
+                        "name": "darbiba"
+                    }
+        }
+
+
+    ],
+
+    "accordion": [
+        {
+            "title": "Informācija par degvielas uzpildes staciju",
+            "section": "info-par-degv-staciju",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+        {
+            "title": "Dokumeti",
+            "section": "dokumenti",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+        {
+            "title": "Papildus informācija",
+            "section": "eksperta-novertejums",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        }
+
+    ]
+}
+

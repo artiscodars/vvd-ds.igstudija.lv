@@ -1,0 +1,379 @@
+{
+    "system": "KLIENTU VADĪBAS UN UZRAUDZĪBAS SISTĒMA",
+    "tabs": "show",
+    "tools": [
+        {
+            "type": "button", 
+            "col": "col-auto",
+            "field_elements": 
+                    {
+                        "name": "Saglabāt",
+                        "class": "btn btn-primary",
+                        "icon": "fa-solid fa-check"
+                    }
+        },
+
+        {
+            "type": "dropdown", 
+            "col": "col-auto",
+            "field_elements": 
+                    {
+                        "name": "Darbības",
+                        "class": "btn btn-outline-dark dropdown-toggle"
+                    },
+            "options": [
+                {
+                    "name": "Drukāt", 
+                    "icon": "fa-solid fa-print"
+                },
+                {
+                    "name": "Eksportēt uz Excel", 
+                    "icon": "fa-solid fa-file-excel"
+                },
+                {
+                    "name": "Parakstīt", 
+                    "icon": "fa-solid fa-file-signature"
+                },
+                {
+                    "name": "Nosūtīt", 
+                    "icon": "fa-solid fa-paper-plane"
+                }
+            ]
+        }
+    ],
+    "form": [
+        {
+            "type": "text", 
+            "col": "col-md-2",
+            "field_elements": 
+                    {
+                        "label": "ID",
+                        "value": "123"
+                    }
+        },
+        {
+            "type": "text", 
+            "col": "col-md-6",
+            "field_elements": 
+                    {
+                        "label": "Pārbaudes veids", 
+                        "placeholder": "Izvēlies"
+                    }
+            ,
+            "options": {
+                "a": "Pirma", 
+                "b": "Otra"
+            }
+        },
+
+        {
+            "type": "date", 
+            "col": "col-md-2",
+            "field_elements": 
+                    {
+                        "label": "Pārbaudes datums objektā"
+                    }
+        },
+
+        {
+            "type": "select", 
+            "col": "col-md-2",
+            "field_elements": 
+                    {
+                        "label": "Statuss", 
+                        "placeholder": "Izvēlies"
+                    }
+            ,
+            "options": 
+                    {
+                        "a": "Uzsākts", 
+                        "b": "Pabeigts"
+                    }
+        },
+
+        {
+            "type": "datalist", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "VVD inspektors",
+                        "placeholder": "Jānis Bērziņš (246)",
+                        "id": "vvd-inspektors"
+                    },
+            "options": 
+                    {
+                        "m": "Jānis Bērziņš (246)",
+                        "a": "Liene Ādama (777)"
+                    }
+        },
+        {
+            "type": "text", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "Struktūrvienība", 
+                        "value": "Vidzemes regionala vides pārvalde",
+                        "disabled": "disabled"
+                    }
+        },
+        {
+            "type": "text", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "Ziņojuma numurs", 
+                        "value": "246-32/2022",
+                        "disabled": "disabled"
+                    }
+        },
+
+        {
+            "type": "datalist", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "Ziņojuma sagatavošanas vieta ",
+                        "placeholder": "Rīga",
+                        "id": "sagatavosanas-vieta"
+                    },
+            "options": 
+                    {
+                        "m": "Liepāja",
+                        "a": "Alūksne"
+                    }
+        },
+        {
+            "type": "subtitle", 
+            "col": "col-12",
+            "field_elements": 
+                    {
+                        "heading": "h3",
+                        "title": "Operators"
+                    }
+        },
+        {
+            "type": "datalist", 
+            "col": "col-md-4",
+            "field_elements": 
+                    {
+                        "label": "Nosaukums",
+                        "id": "nosaukums"
+                    },
+            "options": 
+                    {
+                        "h": "Kaut kāds SIA nosaukums",
+                        "g": "Kaut kāds SIA nosaukums"
+                    }
+        },
+        {
+            "type": "select", 
+            "col": "col-md-2",
+            "field_elements": 
+                    {
+                        "label": "Atļaujas tips", 
+                        "placeholder": "Izvēlies"
+                    }
+            ,
+            "options": 
+                    {
+                        "a": "Tips A", 
+                        "b": "Tips B"
+                    }
+        },
+        {
+            "type": "select", 
+            "col": "col-md-2",
+            "field_elements": 
+                    {
+                        "label": "Atļauja", 
+                        "placeholder": "Izvēlies"
+                    }
+            ,
+            "options": 
+                    {
+                        "a": "Atļauja A", 
+                        "b": "Atļauja B"
+                    }
+        },
+
+        {
+            "type": "text", 
+            "col": "col-md-2",
+            "field_elements": 
+                    {
+                        "label": "Atļauja izdota",
+                        "value": "12.12.2022",
+                        "disabled": "disabled"
+                    }
+        },
+
+        {
+            "type": "text", 
+            "col": "col-md-2",
+            "field_elements": 
+                    {
+                        "label": "Atļauja derīga",
+                        "value": "12.12.2025",
+                        "disabled": "disabled"
+                    }
+        },
+
+        {
+            "type": "text", 
+            "col": "col-md-4",
+            "field_elements": 
+                    {
+                        "label": "Pārbaudes objekts",
+                        "value": "Iekārta XYZ 32",
+                        "disabled": "disabled"
+                    }
+        },
+        {
+            "type": "text", 
+            "col": "col-md-8",
+            "field_elements": 
+                    {
+                        "label": "Objekta adrese",
+                        "value": "Brīvības iela 234, Rīga, LV-1050",
+                        "disabled": "disabled"
+                    }
+        },
+
+        {
+            "type": "subtitle", 
+            "col": "col-12",
+            "field_elements": 
+                    {
+                        "heading": "h3",
+                        "title": "Piezīmes"
+                    }
+        },
+        {
+            "type": "textarea", 
+            "col": "col-md-12",
+            "field_elements": 
+                    {
+                        "label": "Piezīmes"
+                    }
+        }
+
+
+
+    ],
+
+    "accordion": [
+        {
+            "title": "Operatora pārstāvji",
+            "section": "kontrole-operatora-parstavji",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01",
+            "content_block": [
+                {
+                    "type": "form",
+                    "data": [
+                        {
+                            "type": "button", 
+                            "col": "col-auto",
+                            "field_elements": 
+                                    {
+                                        "name": "Pievienot",
+                                        "class": "btn btn-primary"
+                                    }
+                        },
+                        {
+                            "type": "button", 
+                            "col": "col text-end mb-3",
+                            "field_elements": 
+                                    {
+                                        "name": "Lejupielādēt XLSX",
+                                        "class": "btn btn-primary"
+                                    }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "table",
+                    "data": "operatora-parstavji"
+                }
+
+            ]
+        },
+        {
+            "title": "Kontroles modulis",
+            "section": "kontrole-kontroles-modulis",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+        {
+            "title": "Pārbaudes veicēji",
+            "section": "kontrole-parbaudes-veiceji",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+        {
+            "title": "Pārbaudē piedalījās",
+            "section": "kontrole-parbaude-piedalijas",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+        {
+            "title": "Pārbaudes jomas",
+            "section": "kontrole-parbaudes-jomas",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+        {
+            "title": "Secinājumi",
+            "section": "kontrole-secinajumi",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01",
+            "comments": "2",
+            "status": "ok"
+        },
+        {
+            "title": "Norādījumi",
+            "section": "kontrole-noradijumi",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01",
+            "comments": "4"
+        },
+        {
+            "title": "Dokumenti",
+            "section": "dokumenti",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+        {
+            "title": "Tehniskie līdzekļi",
+            "section": "kontrole-tehniskie-lidzekli",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+        {
+            "title": "Versijas",
+            "section": "kontrole-versijas",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+        {
+            "title": "Ziņojuma aprites vēsture",
+            "section": "kontrole-zinojuma-aprites-vesture",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        }
+
+    ]
+}
+

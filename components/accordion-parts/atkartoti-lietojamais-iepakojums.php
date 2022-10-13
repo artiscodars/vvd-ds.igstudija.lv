@@ -1,0 +1,1 @@
+<?php table('atkartoti-lietojamais-iepakojums');?>

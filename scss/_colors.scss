@@ -1,0 +1,241 @@
+// main: style.scss
+
+//Primārās krāsas
+$vvd-green: #4A773C; //pamata  krāsa
+$green: #598F49;
+$light-grey: #D4D4D7;
+$dark-grey: #686868;
+
+//Pelēkie toņi
+$grey-500: #333333;
+$grey-400: #9e9e9e;
+$grey-300: #cccccc;
+$grey-200: #f2f3f2;
+$grey-100: #f9f9f9;
+
+//Sekundārās krāsas
+$yellow: #EDBE00;
+$blue: #386A9C;
+$black:#141414; 
+
+//Palīgkrāsas
+$red:#cc2030;
+$lighter-green: #dcead7;
+$light-green: #cdd9c9;
+$dark-green: #2a4b20;
+
+
+
+
+.vvd-green {
+  color: $vvd-green;
+}
+
+.border-vvd-green {
+  border-color: $vvd-green !important;
+}
+
+.vvd-green-bg {
+  background: $vvd-green !important;
+  color: #fff;
+}
+//Palīgkrāsasa
+
+.grey-500-bg {
+  background: $grey-500 !important;
+  color: #fff;
+}
+
+.grey-400-bg {
+  background: $grey-400 !important;
+  color: #fff;
+}
+
+.grey-300-bg {
+  background: $grey-300 !important;
+}
+
+.grey-200-bg {
+  background: $grey-200 !important;
+}
+
+.grey-100-bg {
+  background: $grey-100 !important;
+}
+
+
+
+
+.green {
+  color: $green;
+}
+
+.border-green {
+  border-color: $green !important;
+}
+
+.green-bg {
+  background: $green !important;
+  color: #fff;
+}
+
+.yellow {
+  color: $yellow;
+}
+
+.border-yellow {
+  border-color: $yellow !important;
+}
+
+.yellow-bg {
+  background: $yellow !important;
+  color: $black;
+}
+
+.blue {
+  color: $blue;
+}
+
+.border-blue {
+  border-color: $blue !important;
+}
+
+.blue-bg {
+  background: $blue !important;
+  color: #fff;
+}
+
+
+.red {
+  color: $red;
+}
+
+.border-red {
+  border-color: $red !important;
+}
+
+.red-bg {
+  background: $red !important;
+  color: #fff;
+}
+
+
+
+.black {
+  color: $black;
+}
+
+.border-black {
+  border-color: $black !important;
+}
+
+.black-bg {
+  background: $black !important;
+  color: #fff;
+}
+
+
+
+
+
+.light-grey-bg {
+  background: $light-grey !important;
+}
+
+.border-light-grey {
+  border-color: $light-grey !important;
+}
+
+.dark-grey {
+  color: $dark-grey;
+}
+
+.dark-grey-bg {
+  background: $dark-grey !important;
+  color: #fff !important;
+}
+
+.border-dark-grey {
+  border-color: $dark-grey !important;
+}
+
+
+
+.lighter-green {
+  color: $lighter-green;
+}
+
+.border-lighter-green {
+  border-color: $lighter-green !important;
+}
+
+.lighter-green-bg {
+  background: $lighter-green !important;
+  color: $black;
+}
+
+
+
+.light-green {
+  color: $light-green;
+}
+
+.border-light-green {
+  border-color: $light-green !important;
+}
+
+.light-green-bg {
+  background: $light-green !important;
+  color: $black;
+}
+
+
+.dark-green {
+  color: $green;
+}
+
+.border-dark-green {
+  border-color: $dark-green !important;
+}
+
+.dark-green-bg {
+  background: $dark-green !important;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+$primary: $vvd-green !default;
+$secondary: $dark-grey !default;
+$success: $green;
+$danger: $red;
+$warning: $yellow;
+$info: $vvd-green;
+$light: $light-grey;
+$dark: $dark-grey;
+$success-text: #fff;
+  
+
+$theme-colors: (
+  primary: $vvd-green,
+  secondary: $dark-grey,
+  success: $green,
+  info: $blue,
+  warning: $yellow,
+  danger: $red,
+  light: $light-grey,
+  dark: $black,
+  // add any additional color below
+);
+
+
+

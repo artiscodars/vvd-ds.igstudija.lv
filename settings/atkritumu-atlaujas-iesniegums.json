@@ -1,0 +1,330 @@
+{
+
+    "system": "KLIENTU VADĪBAS UN UZRAUDZĪBAS SISTĒMA",
+     "tabs": "show",
+    "tools": [
+        {
+            "type": "button", 
+            "col": "col-auto",
+            "field_elements": 
+                    {
+                        "name": "Saglabāt",
+                        "class": "btn btn-primary"
+                    }
+        }
+    ],
+    "form": [
+        {
+            "type": "text", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "AA#ID",
+                        "value": "123",
+                        "disabled": "disabled"
+                    }
+        },
+        {
+            "type": "date", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "Iesniegšanas datums", 
+                        "placeholder": "Izvēlies",
+                        "disabled": "disabled",
+                        "value": "12.12.2022"
+                    }
+        },
+
+        {
+            "type": "select", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "Statuss", 
+                        "placeholder": "Izvēlies"
+                    }
+            ,
+            "options": 
+                    {
+                        "m": "Statuss A",
+                        "a": "Statuss B", 
+                        "b": "Statuss C"
+                    }
+        },
+        {
+            "type": "date", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "Nodevas samaksāšanas datums", 
+                        "placeholder": ""
+                    }
+        },
+        {
+            "type": "subtitle", 
+            "col": "col-12",
+            "field_elements": 
+                    {
+                        "heading": "h3",
+                        "title": "Operators"
+                    }
+        },
+        {
+            "type": "text", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "Nosaukums", 
+                        "disabled": "disabled",
+                        "value": "EKO OSTA, SIA"
+                    }
+        },
+
+        {
+            "type": "text", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "Kontaktpersona", 
+                        "disabled": "disabled",
+                        "value": "Jānis Bērziņš"
+                    }
+        },
+
+        {
+            "type": "select", 
+            "col": "col-md-6",
+            "field_elements": 
+                    {
+                        "label": "Struktūrvienība",
+                        "placeholder": "Izvēlies"
+                    },
+            "options": 
+                    {
+                        "m": "Nosaukums 1",
+                        "a": "Nosaukums 2", 
+                        "b": "Nosaukums 3"
+                    }
+        },
+
+        {
+            "type": "subtitle", 
+            "col": "col-12",
+            "field_elements": 
+                    {
+                        "heading": "h3",
+                        "title": "Iesnieguma informācija"
+                    }
+        },
+
+        {
+            "type": "text", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": " Iesnieguma iesniegšana siemesls",
+                        "disabled": "disabled",
+                        "value": "Iesniegums jaunas atkritumu atļaujas saņemšanai"
+                    }
+        },
+
+        {
+            "type": "text", 
+            "col": "col-md-5",
+            "field_elements": 
+                    {
+                        "label": " Atkritumu apsaimniekošanas veids",
+                        "disabled": "disabled",
+                        "value": "Atkritumu savākšanas, pārvadāšanas, pārkraušanas, šķirošanas, uzglabāšanas atļauja"
+                    }
+        },
+
+        {
+            "type": "date", 
+            "col": "col-md-2",
+            "field_elements": 
+                    {
+                        "label": "Darbības uzsākšana", 
+                        "placeholder": ""
+                    }
+        },
+
+        {
+            "type": "date", 
+            "col": "col-md-2",
+            "field_elements": 
+                    {
+                        "label": "Darbības termiņš", 
+                        "placeholder": ""
+                    }
+        },
+
+        {
+            "type": "subtitle", 
+            "col": "col-12",
+            "field_elements": 
+                    {
+                        "heading": "h4",
+                        "title": "Atkritumu apsaimniekošanas pieteiktās darbības"
+                    }
+        },
+
+        {
+            "type": "text", 
+            "col": "col-auto",
+            "field_elements": 
+                    {
+                        "value": "<i class='fa-solid fa-check'></i> Atkritumu pārkraušanai un uzglabāšanai",
+                        "disabled": "disabled"
+                    }
+        },
+        {
+            "type": "text", 
+            "col": "col-auto",
+            "field_elements": 
+                    {
+                        "value": "<i class='fa-solid fa-check'></i> Atkritumu pārvadāšanai",
+                        "disabled": "disabled"
+                    }
+        },
+        {
+            "type": "text", 
+            "col": "col-auto",
+            "field_elements": 
+                    {
+                        "value": "<i class='fa-solid fa-check'></i> Atkritumu pārkraušanai un uzglabāšanai",
+                        "disabled": "disabled"
+                    }
+        },
+        {
+            "type": "text", 
+            "col": "col-md-12",
+            "field_elements": 
+                    {
+                        "value": "<i class='fa-solid fa-tag'></i> Atzīme par reģistrāciju atkritumu pārvadājumu uzskaites sistēmā",
+                        "disabled": "disabled"
+                    }
+        },
+
+        {
+            "type": "subtitle", 
+            "col": "col-12",
+            "field_elements": 
+                    {
+                        "heading": "h3",
+                        "title": "Finanšu nodrošinājums"
+                    }
+        },
+
+        {
+            "type": "datalist-group", 
+            "col": "col-md-6",
+            "field_elements": 
+                    {
+                        "label": "Esošie nodrošinājumi",
+                        "placeholder": "Izvēlies",
+                        "button": "Pievienot jaunu"
+                    },
+            "options": 
+                    {
+                        "m": "50 000 EUR",
+                        "a": "100 000 EUR"
+                    }
+        },
+
+        {
+            "type": "subtitle", 
+            "col": "col-12",
+            "field_elements": 
+                    {
+                        "heading": "h4",
+                        "title": "Plānotie pasākumi"
+                    }
+        },
+
+        {
+            "type": "text", 
+            "col": "col-md-12",
+            "field_elements": 
+                    {
+                        "label": "Plānotie pasākumi nodarbināto drošības un veselības aizsardzībā",
+                        "disabled": "disabled"
+                    }
+        },
+        {
+            "type": "text", 
+            "col": "col-md-12",
+            "field_elements": 
+                    {
+                        "label": "Darbinieku kvalifikācija un tās paaugstināšanas pasākumi",
+                        "disabled": "disabled"
+                    }
+        }
+
+
+
+    ],
+
+    "accordion": [
+        {
+            "title": "Savākšana",
+            "section": "atkritumu-savaksana",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+        {
+            "title": "Sķirošana",
+            "section": "atkritumu-skirosana",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+        {
+            "title": "Uzglabāšana",
+            "section": "atkritumu-uzglabasana",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+        {
+            "title": "Pārkraušana",
+            "section": "atkritumu-parkrausana",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+        {
+            "title": "Pārvadāšana",
+            "section": "atkritumu-parvadasana",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+
+        {
+            "title": "Dokumenti",
+            "section": "dokumenti",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+        {
+            "title": "Eksperta Novērtējums",
+            "section": "eksperta-novertejums",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+        {
+            "title": "Nodevas apmaksas informācija",
+            "section": "apmaksas-informacija",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        }
+
+    ]
+}
+

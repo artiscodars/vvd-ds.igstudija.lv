@@ -1,0 +1,19 @@
+
+{
+    "accordion": [
+        {
+            "title": "Lauksaimniekiem",
+            "section": "moduli-lauksaimnieku-modulis",
+            "collapsed": "",
+            "show": "show",
+            "order": "01"
+        },
+        {
+            "title": "Kokapstrāde",
+            "section": "moduli-kokapstrade-modulis",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        }
+    ]
+}

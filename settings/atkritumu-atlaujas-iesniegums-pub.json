@@ -1,0 +1,328 @@
+{
+    "system": "VALSTS VIDES DIENESTA INFORMĀCIJAS SISTĒMA TULPE",
+    "title": "Iesniegums atkritumu atļaujas saņemšanai <span class='badge bg-secondary'>2626</span>",
+    
+    
+    "payment": "true",
+    "breadcrumb": "true",   
+    "tools": [
+        
+        
+       
+        
+        
+        {
+            "type": "button", 
+            "col": "col-auto",
+            "field_elements": 
+                    {
+                        "name": "Saglabāt",
+                        "class": "btn btn-primary",
+                        "icon": "fa-solid fa-check"
+                    }
+        },
+        {
+            "type": "button", 
+            "col": "col-auto",
+            "field_elements": 
+                    {
+                        "name": "Saglabāt & Iesniegt",
+                        "class": "btn btn-primary",
+                        "icon": "fa-solid fa-check-double"
+                    }
+        },
+        {
+            "type": "dropdown", 
+            "col": "col-auto",
+            "field_elements": 
+                    {
+                        "name": "Darbības",
+                        "class": "btn btn-outline-dark dropdown-toggle"
+                    },
+            "options": [
+                {
+                    "name": "Drukāt", 
+                    "icon": "fa-solid fa-print"
+                },
+                {
+                    "name": "Eksportēt uz Excel", 
+                    "icon": "fa-solid fa-file-excel"
+                }
+            ]
+        },
+        {
+            "type": "button", 
+            "col": "col text-end",
+            "field_elements": 
+                    {
+                        "name": "Dzēst",
+                        "class": "btn btn-outline-danger",
+                        "icon": "fa-solid fa-trash-can"
+                    }
+        }
+    ],
+
+    "form": [
+         
+        {
+            "type": "text", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "AA#ID",
+                        "value": "2626",
+                        "disabled": "disabled"
+                    }
+        },
+        {
+            "type": "text", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "Izveidots",
+                        "disabled": "disabled",
+                        "value": "12.12.2022"
+                    }
+        },
+
+        {
+            "type": "text", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "Statuss", 
+                        "value": "Melnraksts",
+                        "disabled": "disabled"
+                    }
+        },
+        
+        {
+            "type": "datalist-group", 
+            "col": "col-12",
+            "field_elements": 
+                    {
+                        "label": "Persona par kuru iesniedz",
+                        "placeholder": "Izvēlies",
+                        "button": "Pievienot jaunu"
+                    },
+            "options": 
+                    {
+                        "m": "AS BALTA",
+                        "a": "Baltijas apdrošināšanas nams"
+                    }
+        },
+
+        {
+            "type": "subtitle", 
+            "col": "col-12",
+            "field_elements": 
+                    {
+                        "heading": "h3",
+                        "title": "Iesnieguma informācija"
+                    }
+        },
+
+        {
+            "type": "select", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": " Iesnieguma iesniegšanas iemesls",
+                        "placeholder": "Izvēlies"
+                    },
+
+            "options": 
+                    {
+                        "m": "Iesniegums jaunas atkritumu atļaujas saņemšanai",
+                        "a": "Iesniegums grozījumiem esošā atkritumu atļaujā"
+                    }
+        },
+
+        {
+            "type": "select", 
+            "col": "col-md-5",
+            "field_elements": 
+                    {
+                        "label": " Atkritumu apsaimniekošanas veids",
+                        "placeholder": "Izvēlies"
+                    },
+            "options": 
+                    {
+                        "m": "Atkritumu savākšanas, pārvadāšanas, pārkraušanas, šķirošanas, uzglabāšanas atļauja",
+                        "a": "Slēgtas vai rekultivētas atkritumu izgāztuves atrakšanas un tajā esošo atkritumu pāršķirošanas atļauja"
+                    }
+        },
+
+        {
+            "type": "date", 
+            "col": "col-md-2",
+            "field_elements": 
+                    {
+                        "label": "Atļauja laika posmam no", 
+                        "placeholder": ""
+                    }
+        },
+
+        {
+            "type": "date", 
+            "col": "col-md-2",
+            "field_elements": 
+                    {
+                        "label": "Atļauja laika posmam līdz", 
+                        "placeholder": ""
+                    }
+        },
+        {
+            "type": "subtitle", 
+            "col": "col-12",
+            "field_elements": 
+                    {
+                        "heading": "h4",
+                        "title": "Atkritumu apsaimniekošanas pieteiktās darbības"
+                    }
+        },
+        {
+            "type": "checkbox", 
+            "col": "col-3",
+            "field_elements": 
+                    {
+                        "label": "Atkritumu savākšanai",
+                        "checked": "checked"
+                    }
+        },
+        {
+            "type": "checkbox", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "Atkritumu pārvadāšanai",
+                        "checked": "checked"
+                    }
+        },
+        {
+            "type": "checkbox", 
+            "col": "col-md-6",
+            "field_elements": 
+                    {
+                        "label": "Atkritumu pārkraušanai un uzglabāšanai"
+                    }
+        },
+        {
+            "type": "checkbox", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "Atkritumu škirošanai un uzglabāšanai"
+                    }
+        },
+        {
+            "type": "checkbox", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "Atkritumu uzglabāšanai"
+                    }
+        },
+        {
+            "type": "subtitle", 
+            "col": "col-12",
+            "field_elements": 
+                    {
+                        "heading": "h4",
+                        "title": "Atzīmes"
+                    }
+        },
+        {
+            "type": "checkbox", 
+            "col": "col-md-12",
+            "field_elements": 
+                    {
+                        "label": "Atzīme par reģistrāciju atkritumu pārvadājumu uzskaites sistēmā"
+                    }
+        },
+
+        {
+            "type": "subtitle", 
+            "col": "col-12",
+            "field_elements": 
+                    {
+                        "heading": "h3",
+                        "title": "Finanšu nodrošinājums"
+                    }
+        },
+
+        {
+            "type": "datalist-group", 
+            "col": "col-md-6",
+            "field_elements": 
+                    {
+                        "label": "Esošie nodrošinājumi",
+                        "placeholder": "Izvēlies",
+                        "button": "Pievienot jaunu"
+                    },
+            "options": 
+                    {
+                        "m": "01.01.2022 līdz 31.12.2022 | AS BALTA, 50 000 EUR",
+                        "a": "01.01.2023 līdz 31.12.2023 | Baltijas apdrošināšanas nams, 100 000 EUR"
+                    }
+        },
+
+        {
+            "type": "subtitle", 
+            "col": "col-12",
+            "field_elements": 
+                    {
+                        "heading": "h4",
+                        "title": "Plānotie pasākumi"
+                    }
+        },
+
+        {
+            "type": "textarea", 
+            "col": "col-md-12",
+            "field_elements": 
+                    {
+                        "label": "Plānotie pasākumi nodarbināto drošības un veselības aizsardzībā"
+                    }
+        },
+        {
+            "type": "textarea", 
+            "col": "col-md-12",
+            "field_elements": 
+                    {
+                        "label": "Darbinieku kvalifikācija un tās paaugstināšanas pasākumi"
+                    }
+        }
+
+
+
+    ],
+
+    "accordion": [
+        {
+            "title": "Savākšana",
+            "section": "atkritumu-savaksana",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+
+        {
+            "title": "Pārvadāšana",
+            "section": "atkritumu-parvadasana",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+
+        {
+            "title": "Dokumenti",
+            "section": "dokumenti",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        }
+
+    ]
+}
+

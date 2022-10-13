@@ -1,0 +1,1 @@
+<?php table('finansu-plana-izpilde');?>

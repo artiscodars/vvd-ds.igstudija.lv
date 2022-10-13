@@ -1,0 +1,110 @@
+{
+    "menuitem": [
+         {
+            "name": "Uz sākumu",
+            "link": "?s=p&p=klientu-portals",
+            "icon": "fa-solid fa-home",
+            "order": "01"
+        },
+        {
+            "name": "Pakalpojumi",
+            "link": "#",
+            "icon": "fa-solid fa-file-signature",
+            "order": "01",
+            "submenu": [
+                {
+                    "name": "Atkritumu atļauja",
+                    "link": "#"
+                },
+                {
+                    "name": "A un B kategorijas piesārņojošo darbību atļauja",
+                    "link": "#"
+                },
+                {
+                    "name": "C kategorijas piesārņojošo darbību reģistrācija/atcelšana",
+                    "link": "#"
+                },
+                {
+                    "name": "Siltumnīcefekta gāzu emisijas atļauja",
+                    "link": "#"
+                },
+                {
+                    "name": "Tehniskie noteikumu izsniegšana, grozījumi, anulēšana",
+                    "link": "#"
+                },
+                {
+                    "name": "Licenču darbībām ar aukstuma aģentiem saņemšanai",
+                    "link": "#"
+                },
+                {
+                    "name": "Ūdens resursu lietošanas atļaujas saņemšanai",
+                    "link": "#"
+                },
+                {
+                    "name": "Melno un krāsaino metālu licenču saņemšanai",
+                    "link": "#"
+                },
+                {
+                    "name": "Paaugstināta organisko šķīdinātāju saturušu produktu tirdzniecības licence",
+                    "link": "#"
+                },
+                {
+                    "name": "Atkritumu tirgotāju un atkritumu apsaimniekošanas starpnieku reģistrācija",
+                    "link": "#"
+                },
+                {
+                    "name": "Ietekmes uz vidi sākotnējais izvērtējums",
+                    "link": "#"
+                },
+                {
+                    "name": "Izlietotā iepakojuma un vienreiz lietojamo galda trauku un piederumu apsaimniekošanas sistēma",
+                    "link": "#"
+                },
+                {
+                    "name": "Videi kaitīgu preču atkritumu sistēma",
+                    "link": "#"
+                },
+                {
+                    "name": "Elektrisko un elektronisko iekārtu atkritumu sistēma",
+                    "link": "#"
+                },
+                {
+                    "name": "Nolietotu transportlīdzekļu sistēma",
+                    "link": "#"
+                }
+            ]
+        },
+        {
+            "name": "Manas atļaujas",
+            "link": "#",
+            "icon": "fa-solid fa-award",
+            "order": "01"
+        },
+        {
+            "name": "Dokumenti",
+            "link": "#",
+            "icon": "fa-solid fa-folder-open",
+            "order": "01"
+        },
+        {
+            "name": "Sarakste",
+            "link": "#",
+            "icon": "fa-solid fa-envelope",
+            "order": "01"
+        },
+        
+        {
+            "name": "Maksājumi",
+            "link": "#",
+            "icon": "fa-solid fa-euro-sign",
+            "order": "01"
+        },
+        {
+            "name": "Palīdzība",
+            "link": "#",
+            "icon": "fa-solid fa-circle-question",
+            "order": "01"
+        }
+        
+    ]
+}

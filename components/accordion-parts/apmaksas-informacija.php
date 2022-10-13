@@ -1,0 +1,1 @@
+<?php table('apmaksas-informacija');?>

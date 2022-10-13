@@ -1,0 +1,122 @@
+
+
+
+.form-element {
+    margin-top: 5px;
+    padding-top: 18px;
+    position: relative;
+    >.form-control,
+    >.form-control-plaintext,
+    >.form-select {
+        padding: 0;
+        height:38px;
+        line-height: 38px;
+        border-width: 1px;
+        padding-left: 12px;
+        box-shadow: none;
+        margin-top: -6px;
+
+
+        &:focus {
+            border-width:2px;
+            border-color:$green;
+        }
+
+
+
+    }
+
+    .form-label {
+        font-weight: normal;
+    } 
+
+    >textarea.form-control {
+        line-height: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+
+    }
+
+    .input-group {
+        margin-top: -6px;
+        >.form-control,
+        >.form-control-plaintext,
+        >.form-select {
+            padding: 0;
+            height:38px;
+            line-height: 38px;
+            border-width: 1px;
+            padding-left: 15px;
+            box-shadow: none;
+
+
+
+
+            &:focus {
+                border-width:2px;
+                border-color:$green;
+            }
+
+        }
+
+
+
+
+
+       
+
+
+
+
+    }
+    
+     input.datalist {
+            position: relative;
+    background-image: url(/fontawesome/svgs/solid/list.svg);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px);
+        }
+
+    label {
+        margin-left: 12px;
+        background: #fff;
+        padding: 0px 5px;
+        color: #646464;
+        font-size: 12px;
+        position: absolute;
+        top: 0;
+        z-index: 99;
+        border-radius: 3px;
+
+    }
+
+    &.disabled {
+        padding:0;
+        label {
+            margin-left: 0px;
+            padding: 0px;
+            position: relative;
+        }
+
+    }
+
+
+}
+
+table.dataTable  {
+    .form-element {
+        margin-top: 0px;
+        padding-top: 0px;
+        .form-control {
+            margin-top: 0px;
+        }
+
+    }
+}
+
+.form-check {
+    //padding-top: 25px;
+}
+
+

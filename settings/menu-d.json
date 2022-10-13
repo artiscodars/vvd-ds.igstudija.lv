@@ -1,0 +1,157 @@
+{
+    "menuitem": [
+        {
+            "name": "Ievads",
+            "link": "?s=d&p=ievads",
+            "icon": "fa-solid fa-award",
+            "order": "01"
+        },
+        {
+            "name": "Vispārīgi",
+            "link": "?s=d&p=visparigi",
+            "icon": "fa-solid fa-file-signature",
+            "order": "01",
+            "submenu": [
+                {
+                    "name": "Ievads",
+                    "link": "?s=d&p=visparigi"
+                },
+                {
+                    "name": "Izkārtojums",
+                    "link": "?s=d&p=izkartojums"
+                },
+                {
+                    "name": "Krāsas",
+                    "link": "?s=d&p=krasas"
+                },
+                {
+                    "name": "Teksti",
+                    "link": "?s=d&p=teksti"
+                },
+                {
+                    "name": "Ikonas",
+                    "link": "?s=d&p=ikonas"
+                }
+            ]
+        },
+        {
+            "name": "Komponents",
+            "link": "?s=d&p=komponentes",
+            "icon": "fa-solid fa-award",
+            "order": "01",
+            "submenu": [
+                {
+                    "name": "Par komponentēm",
+                    "link": "?s=d&p=komponentes"
+                },
+                {
+                    "name": "Akordeoni",
+                    "link": "?s=d&p=akordeoni"
+                },
+                {
+                    "name": "Birkas",
+                    "link": "?s=d&p=birkas"
+                },
+                {
+                    "name": "Datu ievades laukums",
+                    "link": "?s=d&p=datu-ievades-laukums"
+                },
+                {
+                    "name": "Formas",
+                    "link": "?s=d&p=formas"
+                },
+               
+                {
+                    "name": "Modālie logi",
+                    "link": "?s=d&p=modalie-logi"
+                },
+                {
+                    "name": "Info lodziņi",
+                    "link": "?s=d&p=info-lodzini"
+                },
+                {
+                    "name": "Izlecošie paziņojumi",
+                    "link": "?s=d&p=izlecosie-pazinojumi"
+                },
+                {
+                    "name": "Izcelts teksts",
+                    "link": "?s=d&p=izcelts-teksts"
+                },
+                
+              
+                {
+                    "name": "Mapes",
+                    "link": "?s=d&p=mapes"
+                },
+                {
+                    "name": "Navigācijas ceļš",
+                    "link": "?s=d&p=navigacijas-cels"
+                },
+                {
+                    "name": "Paziņojumi",
+                    "link": "?s=d&p=pazinojumi"
+                },
+                {
+                    "name": "Padomu rīki",
+                    "link": "?s=d&p=padomu-riki"
+                },
+                {
+                    "name": "Pogas",
+                    "link": "?s=d&p=pogas"
+                },
+                {
+                    "name": "Progresa indikātori",
+                    "link": "?s=d&p=progresa-indikatori"
+                },
+                {
+                    "name": "Saraksti",
+                    "link": "?s=d&p=saraksti"
+                },
+                {
+                    "name": "Tabulas",
+                    "link": "?s=d&p=tabulas"
+                }
+            ]
+        },
+        {
+            "name": "Piemēri",
+            "link": "?s=d&p=piemeri",
+            "icon": "fa-solid fa-list-check",
+            "order": "01",
+            "submenu": [
+                {
+                    "name": "Atkritumu atļaujas iesniegums (int)",
+                    "link": "?s=b&p=atkritumu-atlaujas-iesniegums",
+                    "target": "_blank"
+                },
+                {
+                    "name": "Kontroles ziņojums (int)",
+                    "link": "?s=b&p=kontroles-zinojums",
+                    "target": "_blank"
+                },
+                {
+                    "name": "RAS pārskats (int)",
+                    "link": "?s=b&p=ras-parskats",
+                    "target": "_blank"
+                },
+               
+                {
+                    "name": "Klientu portāls - sākuma ekrāns",
+                    "link": "?s=p&p=klientu-portals",
+                    "target": "_blank"
+                },
+                {
+                    "name": "Atkritumu atļaujas iesniegums",
+                    "link": "?s=p&p=atkritumu-atlaujas-iesniegums-pub",
+                    "target": "_blank"
+                },
+                
+                {
+                    "name": "C kategorijas piesārņojošo darbību reģistrācija/atcelšana",
+                    "link": "?s=p&p=c-iesniegums",
+                    "target": "_blank"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,162 @@
+{
+    "menuitem": [
+        {
+            "name": "Iesniegumi",
+            "link": "#",
+            "icon": "fa-solid fa-file-signature",
+            "order": "01",
+            "submenu": [
+                {
+                    "name": "Atkritumu atļauja",
+                    "link": "#"
+                },
+                {
+                    "name": "A un B kategorijas piesārņojošo darbību atļauja",
+                    "link": "#"
+                },
+                {
+                    "name": "C kategorijas piesārņojošo darbību reģistrācija/atcelšana",
+                    "link": "#"
+                },
+                {
+                    "name": "Siltumnīcefekta gāzu emisijas atļauja",
+                    "link": "#"
+                },
+                {
+                    "name": "Tehniskie noteikumu izsniegšana, grozījumi, anulēšana",
+                    "link": "#"
+                },
+                {
+                    "name": "Licenču darbībām ar aukstuma aģentiem saņemšanai",
+                    "link": "#"
+                },
+                {
+                    "name": "Ūdens resursu lietošanas atļaujas saņemšanai",
+                    "link": "#"
+                },
+                {
+                    "name": "Melno un krāsaino metālu licenču saņemšanai",
+                    "link": "#"
+                },
+                {
+                    "name": "Paaugstināta organisko šķīdinātāju saturušu produktu tirdzniecības licence",
+                    "link": "#"
+                },
+                {
+                    "name": "Atkritumu tirgotāju un atkritumu apsaimniekošanas starpnieku reģistrācija",
+                    "link": "#"
+                },
+                {
+                    "name": "Ietekmes uz vidi sākotnējais izvērtējums",
+                    "link": "#"
+                },
+                {
+                    "name": "Izlietotā iepakojuma un vienreiz lietojamo galda trauku un piederumu apsaimniekošanas sistēma",
+                    "link": "#"
+                },
+                {
+                    "name": "Videi kaitīgu preču atkritumu sistēma",
+                    "link": "#"
+                },
+                {
+                    "name": "Elektrisko un elektronisko iekārtu atkritumu sistēma",
+                    "link": "#"
+                },
+                {
+                    "name": "Nolietotu transportlīdzekļu sistēma",
+                    "link": "#"
+                }
+            ]
+        },
+        {
+            "name": "Atļaujas",
+            "link": "#",
+            "icon": "fa-solid fa-award",
+            "order": "01"
+        },
+        {
+            "name": "Reģistri",
+            "link": "#",
+            "icon": "fa-solid fa-table-list",
+            "order": "01"
+        },
+        {
+            "name": "Pārskati",
+            "link": "#",
+            "icon": "fa-solid fa-list-check",
+            "order": "01",
+            "submenu": [
+                {
+                    "name": "RAS - IP pārskats",
+                    "link": "#"
+                },
+                {
+                    "name": "RAS - VKP pārskats",
+                    "link": "#"
+                },
+                {
+                    "name": "RAS - EEI pārskats",
+                    "link": "#"
+                },
+                {
+                    "name": "RAS - NTL pārskats",
+                    "link": "#"
+                }
+            ]
+        },
+        {
+            "name": "Licences",
+            "link": "#",
+            "icon": "fa-solid fa-file-invoice",
+            "order": "01"
+        },
+        {
+            "name": "Klasifikatori",
+            "link": "#",
+            "icon": "fa-solid fa-table-cells",
+            "order": "01"
+        },
+        {
+            "name": "Kontrole",
+            "link": "#",
+            "icon": "fa-solid fa-check-to-slot",
+            "order": "01"
+        },
+        {
+            "name": "Klienti",
+            "link": "#",
+            "icon": "fa-solid fa-user-group",
+            "order": "01"
+        },
+        {
+            "name": "Maksājumi",
+            "link": "#",
+            "icon": "fa-solid fa-euro-sign",
+            "order": "01"
+        },
+        {
+            "name": "Dokumenti",
+            "link": "#",
+            "icon": "fa-solid fa-folder-open",
+            "order": "01"
+        },
+        {
+            "name": "Atskaites",
+            "link": "#",
+            "icon": "fa-solid fa-file-circle-check",
+            "order": "01"
+        },
+        {
+            "name": "Uzstādījumi",
+            "link": "#",
+            "icon": "fa-solid fa-gear",
+            "order": "01"
+        }
+    ]
+}
+
+
+
+
+
+     

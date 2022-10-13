@@ -1,0 +1,220 @@
+{
+    "system": "KLIENTU VADĪBAS UN UZRAUDZĪBAS SISTĒMA",
+     "tabs": "show",
+    "tools": [
+        {
+            "type": "button", 
+            "col": "col-auto",
+            "field_elements": 
+                    {
+                        "name": "Saglabāt",
+                        "class": "btn btn-primary"
+                    }
+        }
+    ],
+    "form": [
+        {
+            "type": "text", 
+            "col": "col-md-2",
+            "field_elements": 
+                    {
+                        "label": "DRN IP #ID",
+                        "value": "123",
+                        "disabled": "disabled"
+                    }
+        },
+        {
+            "type": "number", 
+            "col": "col-md-2",
+            "field_elements": 
+                    {
+                        "label": "Pārskata periods",
+                        "value": "01.01.2022 - 30.06.2022 <span class='badge rounded-pill text-bg-dark' data-bs-toggle='tooltip' data-bs-title='Samazinātās prasības'>s</span>",
+                        "disabled": "disabled"
+                    }
+        },
+        {
+            "type": "number", 
+            "col": "col-md-2",
+            "field_elements": 
+                    {
+                        "label": "Pārskata sagatavošanas datums",
+                        "value": "01.07.2022",
+                        "disabled": "disabled"
+                    }
+        },
+        {
+            "type": "number", 
+            "col": "col-md-2",
+            "field_elements": 
+                    {
+                        "label": "Pārskata iesniegšanas datums",
+                        "value": "01.07.2022",
+                        "disabled": "disabled"
+                    }
+        },
+
+        {
+            "type": "select", 
+            "col": "col-md-2",
+            "field_elements": 
+                    {
+                        "label": "Statuss", 
+                        "placeholder": "Izvēlies"
+                    }
+            ,
+            "options": 
+                    {
+                        "m": "Statuss 1",
+                        "a": "Statuss 2", 
+                        "b": "Statuss N"
+                    }
+        },
+        {
+            "type": "subtitle", 
+            "col": "col-12",
+            "field_elements": 
+                    {
+                        "heading": "h3",
+                        "title": "Operators"
+                    }
+        },
+        {
+            "type": "text", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "Nosaukums", 
+                        "disabled": "disabled",
+                        "value": "EKO OSTA, SIA"
+                    }
+        },
+
+        {
+            "type": "text", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "Iesniegtais finanšu nodrošinājums (EUR)", 
+                        "disabled": "disabled",
+                        "value": "50000"
+                    }
+        }
+
+
+
+    ],
+
+    "accordion": [
+        {
+            "title": "Finanšu nodrošinājuma dokumenti",
+            "section": "finansu-nodrosinajuma-dokumenti",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+        {
+            "title": "DRN",
+            "section": "dnr",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+        {
+            "title": "Maisiņi",
+            "section": "maisini",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+        {
+            "title": "Dati-S",
+            "section": "datis",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+        {
+            "title": "Dati-R",
+            "section": "datir",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+        {
+            "title": "Annex",
+            "section": "annex",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+        {
+            "title": "Komunikācija",
+            "section": "komunikacija",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+        {
+            "title": "Atkārtoti lietots",
+            "section": "atkartoti-lietots",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+
+        {
+            "title": "Atkārtoti lietojamais iepakojums atskaites periodā",
+            "section": "atkartoti-lietojamais-iepakojums",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+
+        {
+            "title": "Atkārtoti lietots piezīmes",
+            "section": "atkartoti-lietots-piezimes",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+
+        {
+            "title": "Finanšu plāna izpilde",
+            "section": "finansu-plana-izpilde",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+        {
+            "title": "Papildinformācija",
+            "section": "papildinformacija",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+        {
+            "title": "Kopsavilkums",
+            "section": "kopsavilkums",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+        {
+            "title": "Auditora atzinums",
+            "section": "auditora-atzinums",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        },
+        {
+            "title": "Kopējais eksperta novērtējums",
+            "section": "kopejais-eksperta-novertejums",
+            "collapsed": "collapsed",
+            "show": "",
+            "order": "01"
+        }
+
+    ]
+}
+

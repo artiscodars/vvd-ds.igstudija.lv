@@ -1,0 +1,74 @@
+{
+    "form": [
+        {
+            "type": "subtitle", 
+            "col": "col-12",
+            "field_elements": 
+                    {
+                        "heading": "h3",
+                        "title": "Apliecinājums"
+                    }
+        },
+        {
+            "type": "checkbox", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": "Apliecinu, ka ir veikta valsts nodevas samaksa",
+                        "id": "a"
+                    }
+        },
+        {
+            "type": "checkbox", 
+            "col": "col",
+            "field_elements": 
+                    {
+                        "label": "Apliecinu, ka atļaujas iesniegumā sniegtā informācija ir patiesa un precīza",
+                        "id": "b"
+                    }
+        },
+        {
+            "type": "subtitle", 
+            "col": "col-12",
+            "field_elements": 
+                    {
+                        "heading": "h3",
+                        "title": "Apmaksa"
+                    }
+        },
+
+        {
+            "type": "select", 
+            "col": "col-md-3",
+            "field_elements": 
+                    {
+                        "label": " Maksāšanas veids",
+                        "placeholder": "Izvēlies",
+                        "value":"a"
+                    },
+
+            "options": 
+                    {
+                        "m": "Samaksāts ar pārskaitījumu",
+                        "a": "Maksāt tiešsaistē"
+                    }
+        },
+        
+         {
+            "type": "button", 
+            "col": "col-12 pt-3",
+            "field_elements": 
+                    {
+                        "class": "btn btn-primary",
+                        "value": "mm",
+                "name": "Veikt apmaksu"
+                    }
+        }
+
+
+
+
+
+
+    ]
+}
