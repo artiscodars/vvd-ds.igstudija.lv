@@ -22,9 +22,7 @@
 <br>
 <h3>Plānotie savācamo bīstamo atkritumu veidi un apjoms  kalendāra gadā</h3>
 (Norāda katrai savākšanas vietai atseviški atbilstoši normatīvajiem aktiem par atkritumu klasifikatoru un īpašībām, kas padara atkritumus bīstamus)
-<div class="pt-3 pb-2">
-    <?php form_field('button', array('name'=>"Pievienot", "class"=>"btn btn-success"));?>
-</div>
-<?php table('atkritumu-savaksana');?>
+
+<?php table('atkritumu-savaksana','html');?>
 
 <?php } ?>

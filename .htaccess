@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine on 
+
+RewriteRule ^([^/.]+)/([^/.]+)$ ?s=$1&p=$2
+
+
+</IfModule>

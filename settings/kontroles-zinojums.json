@@ -39,6 +39,16 @@
                     "icon": "fa-solid fa-paper-plane"
                 }
             ]
+        },
+        {
+            "type": "button", 
+            "col": "col",
+            "field_elements": 
+                    {
+                        "name": "Apstiprināt",
+                        "class": "btn btn-info",
+                        "icon": "fa-solid fa-circle-check" 
+                    }
         }
     ],
     "form": [

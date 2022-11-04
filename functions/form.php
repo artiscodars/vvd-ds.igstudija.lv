@@ -32,6 +32,10 @@ function form(
              $form_fields = $items["tools"];     
              
           
+        } elseif($block == 'table') {
+             $form_fields = $items["tabledef"]["form"];     
+        } elseif($block == 'nested-table') {
+             $form_fields = $items["nested-tabledef"]["form"];     
         }
        
         

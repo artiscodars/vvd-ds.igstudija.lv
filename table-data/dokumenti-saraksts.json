@@ -1,0 +1,41 @@
+{
+    "columnHeaderVertAlign": "bottom",
+    "resizableRows": true,
+    "pagination": false,
+    "paginationSize": 10,
+    "paginationSizeSelector": [5, 10, 20, 100],
+    "movableColumns": true,
+    "paginationCounter": false,
+    "maxHeight": "100%",
+    "layout": "fitColumns",
+    "columns": [
+        {
+            "title": "N.p.k.",
+            "field": "npk",
+            "width": 50,
+            "hozAlign": "center",
+            "headerSort": false
+        },
+        {
+            "title": "Nosaukums",
+            "field": "nosaukums"
+        },
+
+        {
+            "title": "Datums",
+            "field": "datums",
+            "width": 150,
+            "hozAlign": "center"
+        }
+    ],
+    "data": [
+        {
+            "nosaukums": "Kaut kāds dokumenta nosaukums",
+            "datums": "12.12.2022"
+        },
+        {
+            "nosaukums": "Cits dokuments",
+            "datums": "12.12.2022"
+        }
+    ]
+}

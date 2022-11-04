@@ -1,10 +1,19 @@
 <?php
 
+
+    
+
 function form_field($field_type, $field_elements = NULL, $options = NULL) {
 
-    // echo "{".$field_type."}";
-
+    
+   
+    
+    
     if (is_array($field_elements)) {
+        
+        
+        
+        
         if (array_key_exists('label', $field_elements)) {
             $field_label = $field_elements['label'];
         } else {
@@ -20,6 +29,19 @@ function form_field($field_type, $field_elements = NULL, $options = NULL) {
             $field_icon = $field_elements['icon'];
         } else {
             $field_icon = NULL;
+        }
+        
+        
+         if (array_key_exists('link', $field_elements)) {
+            $field_link = $field_elements['link'];
+        } else {
+            $field_link = NULL;
+        }
+        
+         if (array_key_exists('target', $field_elements)) {
+            $field_target = $field_elements['target'];
+        } else {
+            $field_target = NULL;
         }
 
 
@@ -74,10 +96,42 @@ function form_field($field_type, $field_elements = NULL, $options = NULL) {
         } else {
             $field_checked = NULL;
         }
+        
+        
+        
+        if (array_key_exists('data-bs-toggle', $field_elements)) {
+            $field_toogle = $field_elements['data-bs-toggle'];
+        } else {
+            $field_toogle = NULL;
+        }
+        
+        
+        
+        
+        
+        foreach ($field_elements as $key => $element){
+      
+           $field[$key] = $key.'="'.$element.'"';
+
+        }
+        
+        
+        
     }
 
-
-
+    
 
     include('templates/form-' . $field_type . '.php');
+}
+
+
+function atributes($allowed,$field){
+    
+    $new_arr = array_intersect_key($field, array_flip($allowed));
+   
+    foreach ($new_arr as $cc){
+        echo $cc;
+    }
+    
+  
 }

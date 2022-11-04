@@ -1,0 +1,403 @@
+{
+
+    "tabledef": {
+        "columnHeaderVertAlign": "bottom",
+        "resizableRows": false,
+        "pagination": false,
+        "paginationSize": false,
+        "paginationSizeSelector": false,
+        "movableColumns": true,
+        "paginationCounter": false,
+        "maxHeight": "100%",
+        "layout": "fitColumns",
+        "class": "table table-hover  table-bordered",
+        "collapse": true,
+        "form":
+                [
+                    {
+                        "type": "button", 
+                        "col": "col-auto",
+                        "field_elements": 
+                                {
+                                    "name": "Pievienot vietu",
+                                    "class": "btn btn-primary",
+                                    "icon": "fa-solid fa-plus",
+                                    "data-bs-toggle": "modal",
+                                    "data-bs-target": "#add_new"
+                                }
+                    },
+
+                    {
+                        "type": "dropdown", 
+                        "col": "col-auto",
+                        "field_elements": 
+                                {
+                                    "name": "Darbības",
+                                    "class": "btn btn-outline-dark dropdown-toggle"
+                                },
+                        "options": [
+                            {
+                                "name": "Atzīmēt, kā pārbaudītus", 
+                                "icon": "fa-solid fa-check"
+                            },
+                            {
+                                "name": "Dzēst", 
+                                "icon": "fa-solid fa-trash"
+                            }
+
+                        ]
+                    }
+                ]
+    },
+
+    "nested-tabledef": {
+        "columnHeaderVertAlign": "bottom",
+        "resizableRows": false,
+        "pagination": false,
+        "paginationSize": false,
+        "paginationSizeSelector": false,
+        "movableColumns": true,
+        "paginationCounter": false,
+        "maxHeight": "100%",
+        "layout": "fitColumns",
+        "class": "table table-hover  table-bordered mt-2",
+        "form":
+                [
+                    {
+                        "type": "button", 
+                        "col": "col-auto",
+                        "field_elements": 
+                                {
+                                    "name": "Pievienot līguma puses",
+                                    "class": "btn btn-outline-primary btn-sm",
+                                    "icon": "fa-solid fa-plus",
+                                    "data-bs-toggle": "modal",
+                                    "data-bs-target": "#add_new"
+                                }
+                    },
+
+                    {
+                        "type": "dropdown", 
+                        "col": "col-auto",
+                        "field_elements": 
+                                {
+                                    "name": "Darbības",
+                                    "class": "btn btn-outline-secondary btn-sm dropdown-toggle"
+                                },
+                        "options": [
+                            {
+                                "name": "Atzīmēt, kā pārbaudītus", 
+                                "icon": "fa-solid fa-check"
+                            },
+                            {
+                                "name": "Dzēst", 
+                                "icon": "fa-solid fa-trash"
+                            }
+
+                        ]
+                    }
+                ]
+    },
+
+    "columns": [
+
+        {
+            "title": null,
+            "field": "cbox",
+            "width": 30,
+            "class": "text-center",
+            "headerSort": false
+        },
+        {
+            "title": null,
+            "field": "poga",
+            "width": 50,
+            "class": "text-center",
+            "headerSort": false
+        },
+        {
+            "title": "Vieta",
+            "field": "atkritumu-savaksanas-vieta"
+        },
+        {
+            "title": "Adrese",
+            "field": "atkritumu-savaksanas-vietas-adrese"
+        },
+        {
+            "title": "Atkritumu kods / nosaukums",
+            "class": "text-center",
+            "field": "atkritumu-kods-nosaukums"
+        },
+        {
+            "title": "Apjoms gadā (t)",
+            "class": "text-center",
+            "field": "atkritumu-apjoms"
+        }
+
+    ],
+
+    "nested-columns": [
+        {
+            "title": null,
+            "field": "cbox",
+            "width": 30,
+            "class": "text-center",
+            "headerSort": false
+        },
+        {
+            "title": null,
+            "field": "poga",
+            "width": 50,
+            "class": "text-center",
+            "headerSort": false
+        },
+        {
+            "title": "Līguma numurs",
+            "class": "text-center",
+            "field": "ligumanr"
+        },
+        {
+            "title": "Līguma puses",
+            "field": "ligumapuses"
+        },
+        {
+            "title": "Līguma termiņš",
+            "class": "text-center",
+            "field": "ligumatermins"
+        }
+    ],
+
+    "data": [
+        {
+
+            "cbox": [
+                {
+                    "type": "checkbox",
+                    "field_elements": 
+                            {
+                                "label": "",
+                                "checked": ""
+                            }
+                }
+            ],
+            "poga": [
+                {
+                    "type": "button",
+                    "field_elements": 
+                            {
+                                "icon": "fa-solid fa-pen",
+                                "class": "btn btn-link btn-sm",
+                                "data-bs-toggle": "modal",
+                                "data-bs-target": "#dynamic_modal"
+                            }
+                }
+            ],
+            "atkritumu-savaksanas-vieta": "Poligons",
+            "atkritumu-savaksanas-vietas-adrese": [
+                {
+                    "type": "link",
+                    "field_elements": 
+                            {
+                                "value": "Zemzariņi, Vecauces pag.",
+                                "link": "https://delfi.lv",
+                                "target": "_blank"
+                            }
+                }]
+            ,
+            "atkritumu-kods-nosaukums": "7656",
+            "atkritumu-apjoms": "1000",
+            "nested-data": null
+        },
+        {
+            "cbox": [
+                {
+                    "type": "checkbox",
+                    "field_elements": 
+                            {
+                                "label": "",
+                                "checked": ""
+                            }
+                }
+            ],
+            "poga": [
+                {
+                    "type": "button",
+                    "field_elements": 
+                            {
+                                "icon": "fa-solid fa-pen",
+                                "class": "btn btn-link btn-sm",
+                                "data-bs-toggle": "modal",
+                                "data-bs-target": "#dynamic_modal"
+                            }
+                }
+            ],
+            "atkritumu-savaksanas-vieta": "Poligons",
+            "atkritumu-savaksanas-vietas-adrese": [
+                {
+                    "type": "link",
+                    "field_elements": 
+                            {
+                                "value": "Zemzariņi, Vecauces pag.",
+                                "link": "https://delfi.lv",
+                                "target": "_blank"
+                            }
+                }]
+            ,
+            "atkritumu-kods-nosaukums": "7656",
+            "atkritumu-apjoms": "1000",
+
+            "nested-data": [
+                {
+                    "cbox": [
+                        {
+                            "type": "checkbox",
+                            "field_elements": 
+                                    {
+                                        "label": "",
+                                        "checked": ""
+                                    }
+                        }
+                    ],
+                    "poga": [
+                        {
+                            "type": "button",
+                            "field_elements": 
+                                    {
+                                        "icon": "fa-solid fa-pen",
+                                        "class": "btn btn-link btn-sm"
+                                    }
+                        }
+                    ],
+                    "ligumanr": "12345",
+                    "ligumapuses": [
+                        {
+                            "type": "link",
+                            "field_elements": 
+                                    {
+                                        "value": "SIA Eko Osta",
+                                        "link": "https://delfi.lv",
+                                        "target": "_blank",
+                                        "class": "me-2"
+                                    }
+                        },
+                        {
+                            "type": "link",
+                            "field_elements": 
+                                    {
+                                        "value": "SIA Apollo",
+                                        "link": "https://apollo.lv",
+                                        "target": "_blank"
+                                    }
+                        }
+                    ]
+                    ,
+                    "ligumatermins": "01.01.2022 - 31.12.2025"
+                },
+                {
+                    "cbox": [
+                        {
+                            "type": "checkbox",
+                            "field_elements": 
+                                    {
+                                        "label": "",
+                                        "checked": ""
+                                    }
+                        }
+                    ],
+                    "poga": [
+                        {
+                            "type": "button",
+                            "field_elements": 
+                                    {
+                                        "icon": "fa-solid fa-pen",
+                                        "class": "btn btn-link btn-sm"
+                                    }
+                        }
+                    ],
+                    "ligumanr": "12346",
+                    "ligumapuses": "SIA Eko Osta, SIA Varens poligons",
+                    "ligumatermins": "01.01.2022 - 31.12.2023"
+                }
+            ]
+        },
+        {
+            "cbox": [
+                {
+                    "type": "checkbox",
+                    "field_elements": 
+                            {
+                                "label": "",
+                                "checked": ""
+                            }
+                }
+            ],
+            "poga": [
+                {
+                    "type": "button",
+                    "field_elements": 
+                            {
+                                "icon": "fa-solid fa-pen",
+                                "class": "btn btn-link btn-sm"
+                            }
+                }
+            ],
+            "atkritumu-savaksanas-vieta": "Poligons 2",
+            "atkritumu-savaksanas-vietas-adrese": "Brankas, Vecauces pag.",
+            "atkritumu-kods-nosaukums": "7656",
+            "atkritumu-apjoms": "100",
+
+            "nested-data": [
+                {
+                    "cbox": [
+                        {
+                            "type": "checkbox",
+                            "field_elements": 
+                                    {
+                                        "label": "",
+                                        "checked": ""
+                                    }
+                        }
+                    ],
+                    "poga": [
+                        {
+                            "type": "button",
+                            "field_elements": 
+                                    {
+                                        "icon": "fa-solid fa-pen",
+                                        "class": "btn btn-link btn-sm"
+                                    }
+                        }
+                    ],
+                    "ligumanr": "22345",
+                    "ligumapuses": "SIA Eko Osta, SIA MARE MARE",
+                    "ligumatermins": "01.01.2022 - 31.12.2025"
+                },
+                {
+                    "cbox": [
+                        {
+                            "type": "checkbox",
+                            "field_elements": 
+                                    {
+                                        "label": "",
+                                        "checked": ""
+                                    }
+                        }
+                    ],
+                    "poga": [
+                        {
+                            "type": "button",
+                            "field_elements": 
+                                    {
+                                        "icon": "fa-solid fa-pen",
+                                        "class": "btn btn-link btn-sm"
+                                    }
+                        }
+                    ],
+                    "ligumanr": "32346",
+                    "ligumapuses": "SIA Eko Osta, SIA Great moovers",
+                    "ligumatermins": "01.01.2022 - 31.12.2025"
+                }
+            ]
+        }
+    ]
+}

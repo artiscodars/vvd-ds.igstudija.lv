@@ -4,7 +4,7 @@
 
     <div class="logo">
         <a href="/">
-            <img src="images/logo.png">
+            <img src="/images/logo.png">
         </a>
 
     </div>

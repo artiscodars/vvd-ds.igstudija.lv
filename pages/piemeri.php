@@ -9,20 +9,20 @@
                     <div class="col mb-3">
                         <div class="card">
                             <div class="card-body">
-                                <h2>Atkritumu atļaujas iesniegums</h2><a href="?s=b&p=atkritumu-atlaujas-iesniegums">Vairāk <i class="ri-arrow-right-line"></i></a></div>
+                                <h2>Atkritumu atļaujas iesniegums</h2><a href="?s=b&p=atkritumu-atlaujas-iesniegums" target="_blank">Vairāk <i class="ri-arrow-right-line"></i></a></div>
                         </div>
                     </div>
                     <div class="col mb-3">
                         <div class="card">
                             <div class="card-body">
-                                <h2>Kontroles ziņojums</h2><a href="?s=b&p=kontroles-zinojums">Vairāk <i class="ri-arrow-right-line"></i></a></div>
+                                <h2>Kontroles ziņojums</h2><a href="?s=b&p=kontroles-zinojums" target="_blank">Vairāk <i class="ri-arrow-right-line"></i></a></div>
                         </div>
                     </div>
                     
                     <div class="col mb-3">
                         <div class="card">
                             <div class="card-body">
-                                <h2>RAS pārskats</h2><a href="?s=b&p=ras-parskats">Vairāk <i class="ri-arrow-right-line"></i></a></div>
+                                <h2>RAS pārskats</h2><a href="?s=b&p=ras-parskats" target="_blank">Vairāk <i class="ri-arrow-right-line"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -32,20 +32,20 @@
                     <div class="col mb-3">
                         <div class="card">
                             <div class="card-body">
-                                <h2>Klientu portāls - sākuma ekrāns</h2><a href="?s=p&p=klientu-portals">Vairāk <i class="ri-arrow-right-line"></i></a></div>
+                                <h2>Klientu portāls - sākuma ekrāns</h2><a href="?s=p&p=klientu-portals" target="_blank">Vairāk <i class="ri-arrow-right-line"></i></a></div>
                         </div>
                     </div>
                    
                     <div class="col mb-3">
                         <div class="card">
                             <div class="card-body">
-                                <h2>Atkritumu atļaujas iesniegums</h2><a href="?s=p&p=atkritumu-atlaujas-iesniegums-pub">Vairāk <i class="ri-arrow-right-line"></i></a></div>
+                                <h2>Atkritumu atļaujas iesniegums</h2><a href="?s=p&p=atkritumu-atlaujas-iesniegums-pub" target="_blank">Vairāk <i class="ri-arrow-right-line"></i></a></div>
                         </div>
                     </div>
                     <div class="col mb-3">
                         <div class="card">
                             <div class="card-body">
-                                <h2>C kategorijas piesārņojošo darbību reģistrācija/atcelšana</h2><a href="?s=p&p=c-iesniegums">Vairāk <i class="ri-arrow-right-line"></i></a></div>
+                                <h2>C kategorijas piesārņojošo darbību reģistrācija/atcelšana</h2><a href="?s=p&p=c-iesniegums" target="_blank">Vairāk <i class="ri-arrow-right-line"></i></a></div>
                         </div>
                     </div>
                     
