@@ -20,7 +20,7 @@
                         "field_elements": 
                                 {
                                     "name": "Pievienot vietu",
-                                    "class": "btn btn-primary",
+                                    "class": "btn btn-sm  btn-primary",
                                     "icon": "fa-solid fa-plus",
                                     "data-bs-toggle": "modal",
                                     "data-bs-target": "#add_new"
@@ -33,7 +33,7 @@
                         "field_elements": 
                                 {
                                     "name": "Darbības",
-                                    "class": "btn btn-outline-dark dropdown-toggle"
+                                    "class": "btn btn-sm btn-outline-primary dropdown-toggle"
                                 },
                         "options": [
                             {

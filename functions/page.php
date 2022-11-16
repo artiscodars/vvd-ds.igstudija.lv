@@ -97,6 +97,12 @@ function page() {
         ?>
 
 
+<?php 
+ if (array_key_exists("tabledef", $items)) {
+table($p,'html');
+ }?>
+
+
         <?php if (isset($form_fields)) { ?>
             <div class="card mt-3 mb-3">
                 <div class="card-body pt-1">

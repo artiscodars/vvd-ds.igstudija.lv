@@ -1,9 +1,19 @@
 .btn-success {
     color: #fff !important;
 }
-
 .tools {
-    .btn-outline-primary,
+    .btn-outline-success:hover {
+        background: $green;
+    }
+    .btn-outline-dark:hover, .btn-outline-dark:active, .btn-outline-dark:focus  {
+        background: #224418;
+    }
+    .btn-outline-danger:hover {
+        background: #C70606;
+    }
+}
+
+.btn-outline-primary,
 .btn-outline-secondary,
 .btn-outline-success,
 .btn-outline-danger,
@@ -12,23 +22,4 @@
 .btn-outline-light,
 .btn-outline-dark {
     background: #fff;
-   border:0;
-  
-}
-
-
-
-
-.btn-outline-success:hover {
-    background: $green;
-}
-
-.btn-outline-dark:hover, .btn-outline-dark:active, .btn-outline-dark:focus  {
-    background: #224418;
-}
-
-.btn-outline-danger:hover {
-     background: #C70606;
-}
-
 }

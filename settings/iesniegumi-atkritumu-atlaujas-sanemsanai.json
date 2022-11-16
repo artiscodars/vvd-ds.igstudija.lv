@@ -1,0 +1,127 @@
+{
+
+    "system": "VALSTS VIDES DIENESTA INFORMĀCIJAS SISTĒMA TULPE",
+    "title": "Iesniegumi atkritumu atļaujas saņemšanai",
+
+    "breadcrumb": "true",   
+
+    "tabledef": {
+        "columnHeaderVertAlign": "bottom",
+        "resizableRows": false,
+        "pagination": false,
+        "paginationSize": false,
+        "paginationSizeSelector": false,
+        "movableColumns": true,
+        "paginationCounter": false,
+        "maxHeight": "100%",
+        "layout": "fitColumns",
+        "class": "table table-hover  table-bordered",
+
+        "form":
+                [
+                    {
+                        "type": "button", 
+                        "col": "col-auto",
+                        "field_elements": 
+                                {
+                                    "name": "Izveidot jaunu",
+                                    "class": "btn btn-primary",
+                                    "icon": "fa-solid fa-plus",
+                                    "data-bs-toggle": "modal",
+                                    "data-bs-target": "#add_new"
+                                }
+                    },
+
+                    {
+                        "type": "dropdown", 
+                        "col": "col-auto",
+                        "field_elements": 
+                                {
+                                    "name": "Darbības",
+                                    "class": "btn btn-outline-primary dropdown-toggle"
+                                },
+                        "options": [
+                            {
+                                "name": "Eksportēt", 
+                                "icon": "fa-solid fa-file-export"
+                            },
+                            {
+                                "name": "Dzēst", 
+                                "icon": "fa-solid fa-trash"
+                            }
+
+                        ]
+                    }
+                ]
+    },
+
+    "columns": [
+
+        {
+            "title": null,
+            "field": "cbox",
+            "width": 30,
+            "class": "text-center",
+            "headerSort": false
+        },
+        {
+            "title": null,
+            "field": "poga",
+            "width": 50,
+            "class": "text-center",
+            "headerSort": false
+        },
+        {
+            "title": "Numurs",
+            "field": "numurs"
+        },
+        {
+            "title": "Izveidošanas datums",
+            "field": "iz-datums"
+        },
+        {
+            "title": "Iesniegšanas datums",
+            "class": "text-center",
+            "field": "ie-datums"
+        },
+        {
+            "title": "Statuss",
+            "class": "text-center",
+            "field": "statuss"
+        }
+
+    ],
+
+    "data": [
+        {
+
+            "cbox": [
+                {
+                    "type": "checkbox",
+                    "field_elements": 
+                            {
+                                "label": "",
+                                "checked": ""
+                            }
+                }
+            ],
+            "poga": [
+                {
+                    "type": "button",
+                    "field_elements": 
+                            {
+                                "icon": "fa-solid fa-pen",
+                                "class": "btn btn-link btn-sm",
+                                "data-bs-toggle": "modal",
+                                "data-bs-target": "#dynamic_modal"
+                            }
+                }
+            ],
+            "numurs": "GRP#3215",
+            "iz-datums": "06.06.2022",
+            "ie-datums": "07.06.2022",
+            "statuss": "Melnraksts",
+            "nested-data": null
+        }
+    ]
+}

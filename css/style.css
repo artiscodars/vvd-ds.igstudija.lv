@@ -8594,17 +8594,6 @@ textarea.form-control-lg {
 .btn-success {
   color: #fff !important; }
 
-.tools .btn-outline-primary,
-.tools .btn-outline-secondary,
-.tools .btn-outline-success,
-.tools .btn-outline-danger,
-.tools .btn-outline-warning,
-.tools .btn-outline-info,
-.tools .btn-outline-light,
-.tools .btn-outline-dark {
-  background: #fff;
-  border: 0; }
-
 .tools .btn-outline-success:hover {
   background: #598F49; }
 
@@ -8613,6 +8602,16 @@ textarea.form-control-lg {
 
 .tools .btn-outline-danger:hover {
   background: #C70606; }
+
+.btn-outline-primary,
+.btn-outline-secondary,
+.btn-outline-success,
+.btn-outline-danger,
+.btn-outline-warning,
+.btn-outline-info,
+.btn-outline-light,
+.btn-outline-dark {
+  background: #fff; }
 
 html {
   margin: 0;
@@ -8903,6 +8902,9 @@ body {
 
 .dataTable td {
   font-size: 14px; }
+
+.table {
+  background: #fff; }
 
 .tab-list {
   list-style: none;

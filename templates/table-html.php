@@ -5,19 +5,29 @@ $items = json_decode($json, JSON_NUMERIC_CHECK);
 //echo "<pre>";
 //print_r($items);
 //echo "</pre>";
-
+if (array_key_exists("columns", $items)) {
 $table_cols = $items["columns"];
+}
+if (array_key_exists("nested-columns", $items)) {
 $table_nested_cols = $items["nested-columns"];
+}
+if (array_key_exists("tabledef", $items)) {
 $table_defs = $items["tabledef"];
-
+}
+if (array_key_exists("nested-tabledef", $items)) {
 $nested_table_defs = $items["nested-tabledef"];
+}
 
+if (array_key_exists("data", $items)) {
 $table_data = $items["data"];
+}
+
+
 ?>
 
 <?php if ($table_defs['form']) { ?>
     <div class="pt-3 pb-2">
-        <?php form('atkritumu-savaksana', 'table'); ?>
+        <?php form($table_id, 'table'); ?>
     </div>
 <?php } ?>
 
@@ -25,11 +35,13 @@ $table_data = $items["data"];
 
     <tr>
 
-        <?php if ($table_defs["collapse"] == true) { ?>
+        <?php 
+        if (isset($table_defs["collapse"])) {
+        if ($table_defs["collapse"] == true) { ?>
             <th width="60" class="<?php echo $col['class']; ?>">
 
             </th>
-        <?php } ?>
+        <?php } }?>
 
 
         <?php foreach ($table_cols as $col) { ?>
@@ -45,13 +57,15 @@ $table_data = $items["data"];
 
         <tr>
 
-    <?php if ($table_defs["collapse"] == true) { ?>
+    <?php 
+    if (isset($table_defs["collapse"])) {
+    if ($table_defs["collapse"] == true) { ?>
                 <td class="<?php echo $col['class']; ?>">
                     <button class="position-relative btn btn-outline-primary btn-sm" data-bs-toggle="collapse" data-bs-target="#nested-row-<?php echo $c; ?>" aria-expanded="false">
                         <i class="fa-sharp fa-solid fa-caret-right"></i><?php if (!empty($row['nested-data'])) { ?><span class="position-absolute top-2 start-100 translate-middle badge rounded-pill bg-primary"><?php echo count($row['nested-data']); ?></span><?php } ?>
                     </button>
                 </td>
-            <?php } ?>
+    <?php } } ?>
 
                 <?php foreach ($table_cols as $col) { ?>
                 <td class="<?php echo $col['class']; ?>">
