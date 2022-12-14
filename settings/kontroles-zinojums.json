@@ -243,8 +243,8 @@
             "col": "col-md-8",
             "field_elements": 
                     {
-                        "label": "Objekta adrese",
-                        "value": "Brīvības iela 234, Rīga, LV-1050",
+                        "label": "Objekta adrese(-s)",
+                        "value": "Brīvības iela 234, Rīga, LV-1050<br>Aglonas iela 4, Carnikava, LV-3250<br>Uzkaniņi 4, Balvi, LV-4050",
                         "disabled": "disabled"
                     }
         },

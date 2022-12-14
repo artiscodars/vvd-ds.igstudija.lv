@@ -13,10 +13,6 @@
                         <li class="breadcrumb-item active" aria-current="page">Iesniegums atkritumu atļaujas saņemšanai </li>
                     </ol>
                 </nav>
-
-
-
-
 <?php } ?>
 
 

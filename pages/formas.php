@@ -588,6 +588,49 @@
                 </div>
 
             </div>
+            
+            
+            
+            
+             <h2>Vairāku rindu ievade</h2>
+
+            <div class="bd-example">
+                
+                
+                <div class="row d-flex align-items-end g-1">
+                    <div class="col-6">
+                    <div class="form-element">
+                    <label>1. Adrese</label>
+                    <input type="text" class="form-control" placeholder="Ievadi adresi" value="Brīvības iela 234, Rīga, LV-1050">
+                    </div>
+                    </div>
+                    <div class="col-auto d-grid">
+                         <button type="submit" class="btn btn-link align-self-end"><i class="fa-solid fa-xmark"></i></button>
+                    </div>
+                </div>
+                
+                
+                <div class="row d-flex align-items-end g-1">
+                    <div class="col-6">
+                    <div class="form-element">
+                    <label>2. Adrese</label>
+                    <input type="text" class="form-control" placeholder="Ievadi adresi">
+                    </div>
+                    </div>
+                    <div class="col-auto d-grid">
+                         <button type="submit" class="btn btn-primary align-self-end"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                </div>
+
+                
+                    
+               
+
+            </div>
+            
+            
+            
+            
 
             <h2>Formu lauku pārbaude</h2>
 

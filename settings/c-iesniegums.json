@@ -86,18 +86,26 @@
 
         {
             "type": "text", 
-            "col": "col-md-6",
+            "col": "col-md-5",
             "field_elements": 
                     {
                         "label": "Darbības veikšanas vietas adrese"
                     }
         },
+        
         {
-            "type": "text", 
+            "type": "select", 
             "col": "col-md-2",
             "field_elements": 
                     {
-                        "label": "Platums (LKS92 X koordināta)"
+                        "label": "Koordināšu sistēma",
+                        "placeholder": "Izvēlies"
+                    },
+
+            "options": 
+                    {
+                        "m": "LKS92",
+                        "a": "WGS84"
                     }
         },
         {
@@ -105,18 +113,30 @@
             "col": "col-md-2",
             "field_elements": 
                     {
-                        "label": "Garums (LKS92 Y koordināta)"
+                        "label": "Garums (Y koordināta)"
                     }
         },
 
         {
-            "type": "file", 
+            "type": "text", 
             "col": "col-md-2",
             "field_elements": 
                     {
-                        "label": "Attēls"
+                        "label": "Platums (X koordināta)"
                     }
         },
+        
+        {
+            "type": "button", 
+            "col": "col-1 pt-3",
+            "field_elements": 
+                    {
+                        "class": "btn btn-primary",
+                        "value": "mm",
+                        "name": "<i class='fa-solid fa-map-location-dot'></i>"
+                    }
+        },
+        
 
         {
             "type": "subtitle", 
