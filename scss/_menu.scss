@@ -2,15 +2,15 @@
     background: #fff;
     position: fixed;
     z-index: 999;
-    left:15px;
-    top:15px;
+    left: 15px;
+    top: 15px;
     bottom: 15px;
-    width:235px;
-    border-radius: 10px;
+    width: 235px;
+    border-radius: 10px; //menu
 
     .logo {
         display: block;
-        width:80px;
+        width: 80px;
         margin: auto;
         a {
             display: block;
@@ -23,7 +23,6 @@
             max-width: 100%;
         }
     }
-
 
     ul {
         list-style: none;
@@ -44,29 +43,26 @@
 
                 i {
                     position: absolute;
-                    left:20px;
-                    top:50%;
-                    transform:translateY(-50%);
+                    left: 20px;
+                    top: 50%;
+                    transform: translateY(-50%);
                     font-size: 16px;
                 }
-
             }
 
             &:hover {
                 background: $green;
                 a {
-                    color:#fff;
+                    color: #fff;
                 }
-
             }
-
 
             ul.submenu {
                 display: none;
                 position: fixed;
-                left:230px;
-                top:15px;
-                bottom:15px;
+                left: 230px;
+                top: 15px;
+                bottom: 15px;
                 z-index: 9999;
             }
 
@@ -77,93 +73,66 @@
                     overflow: auto;
                     padding: 15px;
                     border-radius: 0 7px 7px 0;
-                    width:300px;
+                    width: 300px;
                     li {
                         a {
                             text-transform: none;
                             padding-left: 10px;
                             height: auto;
-                            color:#fff;
+                            color: #fff;
                         }
                     }
                 }
-
             }
-
-
         }
     }
-
 
     .collapse-menu {
         position: absolute;
         bottom: 20px;
-        left:50%;
+        left: 50%;
         transform: translateX(-50%);
         line-height: 30px;
         cursor: pointer;
         i {
             margin-right: 7px;
-            float:left;
+            float: left;
             line-height: 30px;
             font-size: 20px;
         }
     }
-
 }
 
-
 .menu-collapsed {
-
-
     .menu {
-
-        width:60px;
+        width: 60px;
 
         .logo {
-            width:40px;
+            width: 40px;
             a {
-                border:0;
+                border: 0;
             }
         }
 
-        >ul {
-            >li {
-                >a {
+        > ul {
+            > li {
+                > a {
                     font-size: 0;
                 }
-                
-                
+
                 ul.submenu {
-                
-                left:70px;
-                
+                    left: 70px;
+                }
             }
-                
-                
-            }
-            
-            
         }
 
-
         .collapse-menu {
-
             font-size: 0;
-
 
             i {
                 transform: rotate(180deg);
                 margin-right: 0;
-
             }
-
         }
-
-
-
     }
-
-
-
 }
